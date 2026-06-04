@@ -67,8 +67,8 @@
         margin: auto;
         padding: 20px;
 
-        p {
-            font-size: 1.4rem;
+        .about-description {
+            font-size: 1.3rem;
             text-align: justify;
             text-indent: 50px;
         }
@@ -92,30 +92,23 @@
         background-color: var(--brown);
         display: flex;
         flex-wrap: wrap;
+        gap: 25px;
         margin-top: 20px;
-        padding: 20px;
+        padding: 25px;
         border-radius: 10px;
-        justify-content: space-between;
-
+        justify-content: center;
+        border: 2px solid var(--white);
+        text-align: center;
         .number {
-            /* text-align: center; */
-            /* display: flex; */
-            /* flex-direction: column; */
-            /* justify-content: center; */
-            /* align-items: center; */
-            width: calc(100% / 2);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            /* background-color: rgb(95, 49, 49); */
+            width: calc((100% / 2) - 25px); 
+            /* background-color: rgb(98, 60, 60); */
             h4 {
                 font-size: 1.8rem;
-                font-weight: bold;
-                text-align: center;
+                font-weight: 700;
             }
             p {
                 font-size: 1.2rem;
-                text
+                color: var(--white);
             }
         }
     }

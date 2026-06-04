@@ -27,7 +27,7 @@ function About() {
             </div>
             <div className="about-text">
                 <h3>About Me</h3>
-                <p>I'm a passionate web developer with a keen 
+                <p className="about-description">I'm a passionate web developer with a keen 
                     eye for design and a strong foundation in 
                     business principles. I specialize in creating
                     responsive websites and practical business solutions
@@ -44,9 +44,13 @@ function About() {
                         <p>Internship</p>
                     </div>
                     <div className="number">
-                        <h4>50+</h4>
-                        <p>Happy Clients</p>
+                        <h4>1</h4>
+                        <p>Business</p>
                     </div>
+                    {/* <div className="number">
+                        <h4>2</h4>
+                        <p>Competition Awards</p>
+                    </div> */}
                     <div className="number">
                         <h4>2026</h4>
                         <p>Graduate</p>
