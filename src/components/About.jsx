@@ -20,7 +20,7 @@ function About() {
             </ul>
         </section>
         <section className="about">
-        <img src="blurry-gradient-haikei (1).svg" alt="Blurry gradient background" class="hero-bg" />
+            <img className="hero-bg" src="blurry-gradient-haikei (1).svg" alt="Blurry gradient background"  />
 
             <div className="about-image">
                 <img src="public/about-img.png" alt="" />
@@ -37,15 +37,19 @@ function About() {
                 <div className="about-numbers">
                     <div className="number">
                         <h4>5+</h4>
-                        <p>Years of Experience</p>
+                        <p>Projects</p>
                     </div>
                     <div className="number">
-                        <h4>100+</h4>
-                        <p>Projects Completed</p>
+                        <h4>1</h4>
+                        <p>Internship</p>
                     </div>
                     <div className="number">
                         <h4>50+</h4>
                         <p>Happy Clients</p>
+                    </div>
+                    <div className="number">
+                        <h4>2026</h4>
+                        <p>Graduate</p>
                     </div>
                 </div>
             </div>
