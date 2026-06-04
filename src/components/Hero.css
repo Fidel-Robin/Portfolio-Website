@@ -6,28 +6,22 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Forces the SVG to scale and fill the area perfectly */
+    z-index: -1;       /* Sends it behind your content */
+    pointer-events: none; /* Prevents it from interfering with button clicks */
+  }
+
 }
 
-.bg-hero{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
-  z-index: -1;
-}
 
-.hero-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Forces the SVG to scale and fill the area perfectly */
-  z-index: -1;       /* Sends it behind your content */
-  pointer-events: none; /* Prevents it from interfering with button clicks */
-}
+
 
 
 .hero-text {
@@ -35,61 +29,58 @@
   /* background-color: red; */
   margin: auto;
   padding: 20px;
-}
-p {
-font-size: 1.4rem;
-}
-h3{
-  font-size: 1.7rem;
-  margin-bottom: 10px;
-}
-h1{
-  font-size: 2.7rem;
-  margin-bottom: 10px;
 
-}
-h4{
-  font-size: 1.4rem;
-  font-weight: 400;
-}
+  p {
+    font-size: 1.4rem;
+  }
+  h3{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 2.7rem;
+    margin-bottom: 10px;
 
-.hero-image{
-  /* max-width: 100%; */
-  /* background-color: red; */
-  /* margin: auto; */
-  /* padding: 20px; */
-  /* display: flex; */
-  /* align-items: flex-end; */
-}
+  }
+  h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
 
-.hero-btns {
-  margin-top: 20px;
-  display: flex;
-  gap: 20px;
-}
+  .hero-btns {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
 
-.vp-btn{
-  padding: 10px 20px;
-  background-color: var(--brown);
-  color: white;
-  border: none;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    .vp-btn{
+      padding: 10px 20px;
+      background-color: var(--brown);
+      color: white;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: .9rem;
+    }
 
-.dr-btn{
-  padding: 10px 20px;
-  background-color: transparent;
-  color: var(--brown);
-  font-weight: bold;
-  border: 2px solid var(--brown);
-  border-radius: 5px;
-  cursor: pointer;
+    .dr-btn{
+      padding: 10px 20px;
+      background-color: transparent;
+      color: var(--brown);
+      font-weight: bold;
+      border: 2px solid var(--brown);
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: .9rem;
+    }
+  }
 }
 
-img {
-  max-width: 100%;
-  height: auto; 
-  /* background-color: white; */
+
+.hero-image {
+  img {
+    max-width: 100%;
+    height: auto; 
+  }
 }
+
