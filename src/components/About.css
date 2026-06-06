@@ -2,7 +2,6 @@
     font-size: 1.3rem;
     font-weight: 700;
     overflow: hidden; /* Crucial: hides the text when it goes out of bounds */
-    margin-top: -4px;
     width: 100%; /* Ensures the container takes full width */
     background-color: #585148;
 
