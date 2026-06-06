@@ -149,7 +149,7 @@
 @media (min-width: 1440px) {
   .hero {
     .hero-text {
-       p {
+      p {
         font-size: 2rem;
       }
       h3{

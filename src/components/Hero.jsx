@@ -3,13 +3,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="hero">
-      
-        {/* <img src="blurry-gradient-haikei.svg" alt="Blurry gradient background" class="hero-bg" /> */}
-        <img src="blurry-gradient-haikei (1).svg" alt="Blurry gradient background" class="hero-bg" />
-
-        {/* <img src="stacked-waves-haikei.svg" alt="Blurry gradient background" class="hero-bg" /> */}
-        {/* <img src="stacked-waves-haikei (1).svg" alt="Blurry gradient background" class="hero-bg" /> */}
-        {/* <img src="stacked-waves-haikei (2).svg" alt="Blurry gradient background" class="hero-bg" /> */}
+        <img src="blurry-gradient-haikei (4).svg" alt="Blurry gradient background" class="hero-bg" />
 
         <div className="hero-text">
             <p>Hello!</p>

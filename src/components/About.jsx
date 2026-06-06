@@ -20,7 +20,7 @@ function About() {
             </ul>
         </section>
         <section className="about">
-            <img className="hero-bg" src="blurry-gradient-haikei (1).svg" alt="Blurry gradient background"  />
+            <img src="blurry-gradient-haikei (6).svg" alt="Blurry gradient background" class="hero-bg" />
 
             <div className="about-image">
                 <img src="public/about-img.png" alt="" />
