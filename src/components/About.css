@@ -85,31 +85,54 @@
             font-size: 1.4rem;
             font-weight: 400;
         }
-    }
 
-    .about-numbers{
-        background-color: var(--brown);
-        display: flex;
-        flex-wrap: wrap;
-        gap: 25px;
-        margin-top: 20px;
-        padding: 25px;
-        border-radius: 10px;
-        justify-content: center;
-        border: 2px solid var(--white);
-        text-align: center;
-        .number {
-            width: calc((100% / 2) - 25px); 
-            /* background-color: rgb(98, 60, 60); */
-            h4 {
-                font-size: 1.8rem;
-                font-weight: 700;
-            }
-            p {
-                font-size: 1.2rem;
-                color: var(--white);
+        .about-numbers{
+            background-color: var(--brown);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            justify-content: center;
+            border: 2px solid var(--white);
+            text-align: center;
+            .number {
+                width: calc((100% / 2) - 25px); 
+                /* background-color: rgb(98, 60, 60); */
+                h4 {
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 1.2rem;
+                    color: var(--white);
+                }
             }
         }
     }
 }
 
+
+@media (min-width: 1024px) {
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 100vh;
+
+        .about-image {
+            width: 40%;
+            margin: auto 0;
+            /* background-color: white; */
+        }
+
+        .about-text {
+            width:40%;
+            /* background-color: white; */
+            margin: auto 0;
+
+        }
+    }
+ 
+}
