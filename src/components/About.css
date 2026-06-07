@@ -132,6 +132,23 @@
             /* background-color: white; */
             margin: auto 0;
 
+            h3{
+                text-align: left;
+            }
+
+            .about-description {
+                text-align: justify;
+                text-indent: 0;
+            }
+
+            .about-numbers{
+                justify-content: space-evenly;
+                gap: 10px;
+                .number {
+                    width: auto; /* Allows the number boxes to size based on their content */
+                }
+            }
+
         }
     }
  
