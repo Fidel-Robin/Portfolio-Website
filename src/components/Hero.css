@@ -90,6 +90,7 @@
 @media (min-width: 768px) {
   .hero {
     .hero-text {
+      padding: 40px 10px 20px 40px;
       max-width: 768px;
        p {
         font-size: 1.6rem;
@@ -128,6 +129,8 @@
 
 @media (min-width: 1024px) {
   .hero {
+    /* padding-top: 100px; */
+    /* background-color: red; */
     flex-direction: row;
     height: 100vh;
 
@@ -135,6 +138,8 @@
       width: 45%;
       max-width: none;
       text-align: left;
+      padding: 20px 0px 20px 40px;
+
     }
 
     .hero-image {
@@ -142,6 +147,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: end;
+      padding-left: 40px;
       img {
         width: 100%;
         height: auto;
