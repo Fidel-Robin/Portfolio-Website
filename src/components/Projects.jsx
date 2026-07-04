@@ -4,6 +4,8 @@ function Projects() {
   return (
     <>
     <img src="wave-haikei.svg" alt="Blurry gradient background" className="projects-bg" />
+
+    {/* <img src="stacked-waves-haikei (4).svg" alt="Blurry gradient background" className="projects-bg" /> */}
     <section className="projects">
       
       <h2>My Projects</h2>
