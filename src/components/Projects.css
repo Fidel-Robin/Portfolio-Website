@@ -1,5 +1,7 @@
   .projects-bg {
-    margin-top: -140px;
+    margin-top: -30px;
+    /* margin-top: -140px; */
+
     /* margin-top: -100px; */
     left: 0;
     width: 100%;
@@ -7,10 +9,10 @@
     object-fit: cover; /* Forces the SVG to scale and fill the area perfectly */
     z-index: 3;
     pointer-events: none; /* Prevents it from interfering with button clicks */
-    display: block;
-    /* background-color: var(--grey); */
 
-    position: absolute;
+    /* position: absolute; */
+    position: static;
+
     object-fit: cover;
     z-index: -1;
   }
@@ -66,5 +68,28 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+
+   .projects-bg {
+    margin-top: -60px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+   .projects-bg {
+    margin-top: -90px;
+    /* margin-top: -100px; */  
+  }
+}
+
+@media (min-width: 1440px) {
+
+   .projects-bg {
+    margin-top: -120px;
+    /* margin-top: -100px; */  
   }
 }
