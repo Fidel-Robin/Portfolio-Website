@@ -7,6 +7,11 @@ function Projects() {
     {/* <img src="stacked-waves-haikei (4).svg" alt="Blurry gradient background" className="projects-bg" /> */}
     {/* <img src="stacked-waves-haikei (5).svg" alt="Blurry gradient background" className="projects-bg" /> */}
     <img src="layered-waves-haikei 4.svg" alt="Blurry gradient background" className="projects-bg" />
+    {/* <img src="layered-steps-haikei 2.svg" alt="Blurry gradient background" className="projects-bg" /> */}
+    {/* <img src="layered-steps-haikei (3).svg" alt="Blurry gradient background" className="projects-bg" /> */}
+    
+
+    
 
     <section className="projects">
       
