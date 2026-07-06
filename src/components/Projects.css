@@ -55,8 +55,10 @@
 
       img{
         width: 100%;
-        height: auto;
+        /* height: auto; */
+        height: 200px;
         border-radius: inherit;
+        object-fit: cover;
         /* border-radius: 10px 10px 0 0; */
       }
 
@@ -64,7 +66,7 @@
         /* padding: 15px; */
 
         h3{
-          font-size: 1.3rem;
+          font-size: 1.2rem;
           margin-top: 10px;
           /* padding: 0px; */
         }
