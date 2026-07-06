@@ -1,0 +1,164 @@
+.skills-bg {
+  /* margin-top: -100px; for sttack*/ 
+  margin-top: -30px;
+
+  /* margin-top: -100px; */
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; /* Forces the SVG to scale and fill the area perfectly */
+  z-index: 3;
+  pointer-events: none; /* Prevents it from interfering with button clicks */
+
+  /* position: absolute; */
+  position: static;
+
+  object-fit: cover;
+  z-index: -1;
+}
+.skills{
+  padding: 40px 20px;
+
+  h2{
+    text-align: left;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+
+  .tech-stack-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+
+    h3{
+      text-align: left;
+      font-size: 1.4rem;
+      /* margin-bottom: 10px; */
+      width: 100%;  
+    }
+
+    .tech-stack-item{
+      background-color: #3a482f;
+      /* background-color: var(--grey); */
+      overflow: hidden;
+      width: auto;
+      height: auto;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+        svg{
+          width: 50px;
+          height: 50px;
+          margin-right: 10px;
+        }
+
+        .react-icon {
+          color: #61DAFB; /* React blue */
+        }
+
+        .bootstrap-icon {
+          color: #7952B3; /* Bootstrap purple */
+        }
+
+        .html-icon {
+          color: #E34F26; /* HTML5 orange */
+        }
+        .css-icon {
+          color: #663399; /* CSS3 purple */
+        }
+
+        .laravel-icon {
+          color: #FF2D20; /* Laravel red */
+        }
+
+        .mysql-icon {
+          color: #4479A1; /* MySQL blue */
+        }
+
+        .postgresql-icon {
+          color: #4169E1; /* PostgreSQL blue */
+        }
+
+        .sqlite-icon{
+          color: #003B57; /* SQLite blue */
+        }
+
+        .backblaze-icon{
+          color: #E21E29; /* Backblaze orange */
+        }
+
+        .javascript-icon{
+          color: #F7DF1E; /* JavaScript yellow */
+        }
+
+        .csharp-icon{
+          color: #68217A; /* C# purple */
+        }
+
+        .python-icon{
+          color: #3776AB; /* Python blue */
+        }
+
+        .postman-icon{
+          color: #FF6C37; /* Postman orange */
+        }
+
+        .git-icon{
+          color: #F03C2E; /* Git orange */
+        }
+
+        .github-icon{
+          color: #181717; /* GitHub black */
+        }
+
+        .figma-icon{
+          color: #F24E1E; /* Figma orange */
+        }
+      }
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+
+   .skills-bg {
+    margin-top: -60px;
+  }
+
+  .skills{
+    padding: 40px 80px 40px 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+   .skills-bg {
+    margin-top: -90px;
+    /* margin-top: -100px; */  
+  }
+
+   .skills{
+    padding: 40px 100px 40px 100px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+   .skills-bg {
+    /* margin-top: -280px; sa stacked  */
+    /* margin-top: 120px;   */
+  }
+
+  .skills{
+  /* background-color: var(--brown); */
+  /* background-color: #585148; */
+    padding: 160px 140px 40px 140px;
+  }
+}
