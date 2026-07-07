@@ -12,8 +12,8 @@ function Hero() {
                 <h4>I build responsive websites, POS systems, and practical business solutions using React, Laravel, JavaScript, and MySQL.</h4>
                 
                 <div className="hero-btns">
-                    <button className="vp-btn">View Projects</button>
-                    <button className="dr-btn">Download Resume</button>  
+                    <button className="vp-btn"><a href="#projects">View Projects</a></button>
+                    <button className="dr-btn"><a href="public/Ishmael_Robin_Fidel_CV_JWD.pdf" download>Download Resume</a></button>
                 </div>
             </div>
             <div className="hero-image">
