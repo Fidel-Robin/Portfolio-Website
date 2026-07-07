@@ -36,10 +36,10 @@ function Skills() {
           <p>CSS</p>
         </div>
 
-        <div className="tech-stack-item">
+        {/* <div className="tech-stack-item">
           <img src="public/react.png" alt="React" />
           <p>Bootstrap</p>
-        </div>
+        </div> */}
       </div>
 
        <div className="tech-stack-items">
@@ -102,8 +102,8 @@ function Skills() {
           <p>Figma</p>
         </div>
         <div className="tech-stack-item">
-          <img src="public/react.png" alt="React" />
-          <p>VsCode</p>
+          {/* <img src="public/react.png" alt="React" /> */}
+          <p>Visual Studio Code</p>
         </div>
       </div>
     </section>
