@@ -23,7 +23,7 @@ function About() {
             <img src="blurry-gradient-haikei (6).svg" alt="Blurry gradient background" class="hero-bg" />
 
             <div className="about-image">
-                <img src="public/about-img.png" alt="" />
+                <img src="/about-img.png" alt="" />
             </div>
             <div className="about-text">
                 <h3>About Me</h3>
