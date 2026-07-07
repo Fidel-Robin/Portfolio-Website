@@ -3,7 +3,7 @@ import "./About.css";
 function About() {
   return (
     <>
-        <section className="strapline">
+        <section className="strapline" id="about">
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>

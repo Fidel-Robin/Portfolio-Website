@@ -2,7 +2,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
         <img src="blurry-gradient-haikei (4).svg" alt="Blurry gradient background" class="hero-bg" />
         <div className="hero-wrapper">
             <div className="hero-text">

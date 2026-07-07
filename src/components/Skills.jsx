@@ -13,7 +13,7 @@ function Skills() {
 
     
 
-    <section className="skills">
+    <section className="skills" id="skills">
       
       <h2>Tech Stack</h2>
 
